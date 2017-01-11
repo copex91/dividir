@@ -16,4 +16,10 @@ public class TestDiv {
 	public void testDiv2() {
 		assertEquals(1, Dividir.div(2,2));
 	}
+
+	
+	@Test
+	public void testDiv3() {
+		assertEquals(10, Dividir.div(100, 10));
+	}
 }
