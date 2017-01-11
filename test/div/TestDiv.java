@@ -10,4 +10,10 @@ public class TestDiv {
 	public void testDiv1() {
 		assertEquals(4, Dividir.div(8,2));
 	}
+
+
+	@Test
+	public void testDiv2() {
+		assertEquals(1, Dividir.div(2,2));
+	}
 }
