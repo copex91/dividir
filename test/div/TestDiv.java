@@ -22,4 +22,9 @@ public class TestDiv {
 	public void testDiv3() {
 		assertEquals(10, Dividir.div(100, 10));
 	}
+	
+	@Test 
+	public void testDiv4() {
+		assertEquals(5, Dividir.div(15, 3));
+	}
 }
